@@ -15,8 +15,9 @@ class ProtocolFactory(asyncio.Protocol):
         for client in clients:
             if client is self:
                 continue
-            client.transport.write(
-                "{}: {}".format(self.peername, data.decode()).encode())
+            # client.transport.write(
+            #     "{}: {}".format(self.peername, data.decode()).encode())
+            client.transport.write(data)
 
     def connection_lost(self, ex):
         print('connection lost: {}'.format(self.peername))
