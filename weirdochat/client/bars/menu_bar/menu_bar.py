@@ -1,6 +1,6 @@
 from qtpy.QtWidgets import QMenuBar
 
-from weirdochat.bars.menu_bar.file_menu import FileMenu
+from weirdochat.client.bars.menu_bar.file_menu import FileMenu
 
 
 class MenuBar(QMenuBar):

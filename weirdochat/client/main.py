@@ -2,7 +2,7 @@ import sys
 
 from qtpy.QtWidgets import QApplication
 
-from weirdochat.main_window import MainWindow
+from weirdochat.client.main_window import MainWindow
 
 
 def main():

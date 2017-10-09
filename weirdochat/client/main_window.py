@@ -1,8 +1,8 @@
 from qtpy.QtWidgets import QMainWindow, QDesktopWidget
 
-from weirdochat.bars.menu_bar import MenuBar
-from weirdochat.bars.status_bar import StatusBar
-from weirdochat.central_widget import CentralWidget
+from weirdochat.client.bars.menu_bar import MenuBar
+from weirdochat.client.bars.status_bar import StatusBar
+from weirdochat.client.central_widget import CentralWidget
 
 
 class MainWindow(QMainWindow):
