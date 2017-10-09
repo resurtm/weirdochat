@@ -6,4 +6,5 @@ setup(name='weirdochat',
       install_requires=[
           'PyQt5',
           'QtPy',
+          'Quamash',
       ])
